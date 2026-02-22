@@ -24,7 +24,8 @@ Create 2 encrypted secure webservers with additional data
 9. Configured the Windows VM disk to use the Key Vault key for encryption.
 10. Enabled and verified BitLocker on the Windows VM.
 11. Tested both web servers by accessing them through their public IP addresses.
-12. Documented the project with screenshots and uploaded it to GitHub.
+12. Created a network diagram
+13. Documented the project with screenshots and uploaded it to GitHub.
 
 ## Security
 - only HTTP allowed publicly
@@ -41,3 +42,4 @@ Create 2 encrypted secure webservers with additional data
 6. That there is a delay in Azure resource limits and quotas and that can cause delays when creating resources.
 7. That public IP and disk all cost money when you dont use them. So delete all your resources when your done!
 8. You create the SNAPSHOT on the disk  resource not the VM resource.
+9. How to create a network diagram (lucid.app)
