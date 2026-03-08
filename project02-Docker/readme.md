@@ -16,6 +16,9 @@ Create 2 container instances with Docker images for PHP + MySQL
 6.	Created a Docker image repository
 7.	Created an Azure Container Registry
 8.	Connected to public IP and saw the webpage
+9.	Made screenshots, created an readme for gitHub
+10.	Feel proud
+
 ## What I Learned
 1.	Basics of Docker
 2.	First I couldn’t open the webpage, i got a blankpage
@@ -28,4 +31,5 @@ Create 2 container instances with Docker images for PHP + MySQL
 5.	How to create, tag and push Docker images
 6.	How to create PHP and MySQL files
 7.	How to create repositories
+8.	How to containterize applications
 
