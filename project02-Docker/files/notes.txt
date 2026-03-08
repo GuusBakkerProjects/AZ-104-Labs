@@ -1,0 +1,13 @@
+to create a docker image repository
+
+sudo docker login cloudlearningdev.azurecr.io -u cloudlearningdev - pdNTZEnEuycWuLimagpv8dSYXWUpSgiK6kQ2x8DYrRkXUFDU8NB35JQQJ99CCAC5RqLJEqg7NAAACAZCRq1rG
+
+sudo docker tag phpapp cloudlearningdev.azurecr.io/phpapp
+
+sudo docker push cloudlearningdev.azurecr.io/phpapp
+
+Installled docker on VM: https://docs.docker.com/engine/install/ubuntu/
+
+copy files: scp -r "c:\Users\guus_\desktop\dev\mysql" dockadmin@51.124.200.214:/home/dockeradmin
+
+Azure container registry
