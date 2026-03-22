@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to My Resume!</h1>
+    <p>This is to show my skills and learn Azure!</p>
+    <button>Click Me</button>
+    <p id="message">Loading...</p>
+    <script>
+        fetch("https://staticwebsiteproject03-cna9hpdbeuerfzbm.westeurope-01.azurewebsites.net/api/Webapp?code=J9FETq0U0dBcYGapI95TRBiCRziJxZIABwSX94LIc2PnAzFugPdqSw==")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("message").innerText = data;
+            });
+    </script>
+
+</body>
+
+</html>
